@@ -6,7 +6,8 @@
         public const string AutenticacionSoapActionUrl = "http://DescargaMasivaTerceros.gob.mx/IAutenticacion/Autentica";
 
         public const string SolicitudUrl = "https://cfdidescargamasivasolicitud.clouda.sat.gob.mx/SolicitaDescargaService.svc";
-        public const string SolicitudSoapActionUrl = "http://DescargaMasivaTerceros.sat.gob.mx/ISolicitaDescargaService/SolicitaDescarga";
+        public const string SolicitudSoapActionUrl = "http://DescargaMasivaTerceros.sat.gob.mx/ISolicitaDescargaService/SolicitaDescargaRecibidos";
+        public const string SolicitudEmitidosSoapActionUrl = "http://DescargaMasivaTerceros.sat.gob.mx/ISolicitaDescargaService/SolicitaDescargaEmitidos";
 
         public const string VerificacionUrl = "https://cfdidescargamasivasolicitud.clouda.sat.gob.mx/VerificaSolicitudDescargaService.svc";
         public const string VerificacionSoapActionUrl = "http://DescargaMasivaTerceros.sat.gob.mx/IVerificaSolicitudDescargaService/VerificaSolicitudDescarga";
