@@ -49,6 +49,10 @@
         ///     Se han agotado las solicitudes de por vida
         /// </summary>
         public static readonly CodigoEstatusSolicitud _5002 = new CodigoEstatusSolicitud(5002, "5002", "Se ha alcanzado el límite de solicitudes, con el mismo criterio", "");
+        /// <summary>
+        ///     Tope máximo de elementos de la consulta
+        /// </summary>
+        public static readonly CodigoEstatusSolicitud _5003 = new CodigoEstatusSolicitud(5003, "5003", "Tope máximo de elementos de la consulta", "La solicitud sobrepasa el máximo de resultados por tipo de solicitud (Metadata y CFDI)");
 
         /// <summary>
         ///     No se encontró la información
@@ -74,7 +78,10 @@
         ///     Máximo de descargas permitidas
         /// </summary>
         public static readonly CodigoEstatusSolicitud _5008 = new CodigoEstatusSolicitud(5008, "5008", "Máximo de descargas permitidas", "Un paquete solo puede descargarse un total de 2 veces, una vez agotadas, ya no se podrá volver a descargar");
-
+        /// <summary>
+        ///     Límite de descargas por folio por día
+        /// </summary>
+        public static readonly CodigoEstatusSolicitud _5011 = new CodigoEstatusSolicitud(5011, "5011", "Límite de descargas por folio por día", "Se ha alcanzado o sobrepasado el límite de descargas diarias por folio");
         /// <summary>
         ///     Error no Controlado
         /// </summary>
