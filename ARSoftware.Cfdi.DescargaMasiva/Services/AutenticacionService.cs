@@ -31,7 +31,7 @@ namespace ARSoftware.Cfdi.DescargaMasiva.Services
             envelopElement.AppendChild(headerElement);
 
             var securityElement = xmlDocument.CreateElement(CfdiDescargaMasivaNamespaces.WssePrefix, "Security", CfdiDescargaMasivaNamespaces.WsseNamespaceUrl);
-            securityElement.SetAttribute("mustUnderstand", CfdiDescargaMasivaNamespaces.S11NamespaceUrl, "4");
+            securityElement.SetAttribute("mustUnderstand", CfdiDescargaMasivaNamespaces.S11NamespaceUrl, "1");
             headerElement.AppendChild(securityElement);
 
             var timestampElement = xmlDocument.CreateElement(CfdiDescargaMasivaNamespaces.WsuPrefix, "Timestamp", CfdiDescargaMasivaNamespaces.WsuNamespaceUrl);
